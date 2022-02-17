@@ -1,0 +1,129 @@
+
+@media(max-width: 991px ){
+
+    .title1-parent {
+        height: 100px;
+    }
+    #title1::before{
+        font-size: 40px;
+    }
+    .about .about-img {
+        margin-bottom: 15px;
+    }
+    .services-menu .draw{
+        margin-top: 0px !important;
+        margin-bottom: 15px;
+    }
+    .team-item{
+        margin-bottom: 15px;
+        max-width: 300px;
+    }
+}
+@media( max-width: 767px){
+    .myLogo{
+        margin-top: 0px !important;
+    }
+    .navbar .logo .suplogo{
+        line-height: 10px;
+        font-size: 10px;
+    }
+    .menu-navbar .menu-item {
+        margin: 10px 0;
+    }
+    .menu-navbar .menu-item p{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .menu-navbar .menu-item a {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .menu .theme-colors{margin: 5px;}
+    .menu .theme-colors h1{font-size: 20px;}
+    .menu .theme-colors button {
+        height: 25px;
+        width: 25px;
+        margin: 5px 0px;
+
+    }
+    .menu .theme-colors button.active::before{
+        font-size: 12px;
+    }
+    .toConnect-ToUs .title {
+        font-size: 20px;
+        margin: 5px;
+    }
+    .toConnect-ToUs .sup-title {
+        font-size: 14px;
+    }
+    .menu .toggle-dark-light {
+        right: unset;
+        left: 30px;
+        top: 30%;
+    }
+    
+    .home .sup-title{
+        margin: 0px;
+    }
+    .sup-title h3{
+        font-size: 20px;
+    }
+    .address-item{margin-bottom: 15px;}
+    .home-body{
+        margin: 30px 0 0 10px !important;
+        padding: 20px 20px 0 !important;
+    }
+    .home .address-item p{font-size: 14px;}
+    .home .address-item h3{font-size: 20px;}
+    section.home{
+        background-size: 700px ;
+    }
+    .form-group{
+        margin-bottom: 15px;
+    }
+    .btn-form{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+@media( max-width: 575px){
+    .section-padding {
+        padding: 20px 0;
+    }
+    .section-title .sup-title h2{
+        font-size: 20px;
+    }
+    .about .about-img {
+        margin: 0px auto 15px;
+        max-width: 70%;
+    }
+    h2{
+        font-size: 20px ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    .progress-menu .progress-item {
+        margin: 20px 0;
+    }
+    .progress-menu .progress-item .progress-title{
+        font-size: 16px;
+    }
+    .services-menu i {
+        font-size: 20px;
+        padding: 5px 0 10px;
+        
+    }
+    .services-menu .draw h2 {
+        font-size: 16px;
+    }
+    .services-menu .draw p {
+        line-height: 20px;
+    }
+    .fun-facts-item h2 {
+        font-size: 20px;
+    }
+    #title1::before {
+        font-size: 25px;
+    }
+}
